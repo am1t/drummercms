@@ -496,6 +496,7 @@ body {
 		}
 /*  12/14/18 by DW -- twitter comments */
 	.spTwitterComment {
+		display: none;
 		margin-left: 0px;
 		margin-right: 8px;
 		}
