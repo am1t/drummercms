@@ -193,6 +193,7 @@ body {
 		min-height: 600px;
 		background-color: white;
 		border: 1px solid rgb(221, 221, 221);
+		padding-bottom: 20px;
 		}
 	.divTabContent {
 		margin-top: 30px;
@@ -622,6 +623,20 @@ body {
 	.divTabContentContainer .spTagref:after, .divDayContainer .spTagref:after {
 		content: "]";
 		}
+/*  10/30/21 by DW -- markdown */
+	.spMarkdownText ul, .spMarkdownText ol {
+		margin-top: 7px;
+		margin-bottom: 7px;
+		}
+	.spMarkdownText ol li {
+		list-style-type: numeric;
+		}
+	.spMarkdownText ul li {
+		list-style-type: disc;
+		}
+        .spMarkdownText blockquote {
+                margin-top:20px;
+                }
 
 /* styles for phone */
 	@media only screen 
